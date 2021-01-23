@@ -7298,7 +7298,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ccb78f; }
+  color: blue; }
   a:hover, a:focus {
     text-decoration: none;
     color: #ccb78f;
@@ -7327,7 +7327,7 @@ h1, h2, h3, h4, h5,
   top: 0;
   left: 0;
   right: 0;
-  overflow-y: hidden;
+  overflow-y: auto;
   z-index: 1001;
   background: rgba(0, 0, 0, 0.04);
   -moz-transition: all 0.5s ease;
@@ -7640,15 +7640,13 @@ h1, h2, h3, h4, h5,
     background: #fff;
     z-index: 0; }
   .hero-wrap .author-info, .hero-wrap .author-image {
-    width: 50%; }
+    width: 100%; }
     @media (max-width: 767.98px) {
       .hero-wrap .author-info, .hero-wrap .author-image {
-        width: 30%; } }
-  .hero-wrap .author-info {
-    overflow-y: scroll; }
+        width: 100%; } }
     @media (max-width: 767.98px) {
       .hero-wrap .author-info {
-        width: 70%; } }
+        width: 100%; } }
     .hero-wrap .author-info h3.signature {
       font-family: "Herr Von Muellerhoff", cursive; }
   .hero-wrap .author-image .author-img {
@@ -7666,8 +7664,9 @@ h1, h2, h3, h4, h5,
       line-height: 1; }
   .hero-wrap .text {
     z-index: 1;
-    font-size: 18px;
-    font-weight: 500; }
+    font-size: 15px;
+    font-weight: 500;
+  color: black}
     .hero-wrap .text .img {
       width: 200px;
       height: 200px;
@@ -8751,3 +8750,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.text-color-black{
+  color: black;
+}
+.element-custom-position{
+  position: fixed;
+  top: 50px;
+  overflow-y: auto;
+  height: 600px;
+}
