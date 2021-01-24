@@ -8759,4 +8759,5 @@ textarea.form-control {
   top: 50px;
   overflow-y: auto;
   height: 600px;
+  margin-left: 10px;
 }
